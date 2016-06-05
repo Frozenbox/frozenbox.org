@@ -24,7 +24,7 @@
                     <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand" href="#page-top">
-                     <img width="30" height="30" src="css/images/frozenchat_mono.png" /><span class="light">Home</span>
+                     <img width="30" height="30" src="css/images/frozenbox_mono.png" /><span class="light">FrozenBox</span>
                 </a>
             </div>
 
@@ -36,24 +36,17 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#about">About</a>
+                        <a href="#portals">Portals</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#projects">Projects</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#services">Services</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#android">Android</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#register">Register</a>
+                        <a href="#about">About</a>
 		    </li>
-		    <li class="page-scroll">
-                        <a href="http://webchat.frozenbox.org" target="_blank">IRC Webchat</a>
-                    </li>
-		    <li class="page-scroll">
-                        <a href="http://www.frozenbox.org">Back to Frozenbox</a>
-                    </li>
-
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -66,10 +59,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading"><img width="100" height="100" src="css/images/logo.png" />FrozenChat</h1>
-                        <p class="intro-text">The ultimate secure communication gateway</p>
+                        <h1 class="brand-heading"><img width="100" height="100" src="css/images/logo.png" />Frozenbox Network</h1>
+                        <p class="intro-text">Hacking Community</p>
                         <div class="page-scroll">
-                            <a href="#about" class="btn btn-default btn-lg">Learn More</a>
+                            <a id="joinbutton" href="https://forum.frozenbox.org/ucp.php?mode=login" class="btn btn-default btn-lg" style="width:300px" onmouseover="document.getElementById('joinbutton').innerHTML='Join us'" onmouseout="document.getElementById('joinbutton').innerHTML='Follow the white rabbit'">Follow the white rabbit</a>
 			    <br><br><br>
 			    <a href="http://webchat.frozenbox.org" target="_blank" class="btn btn-default">IRC Webchat</a>
                         </div>
