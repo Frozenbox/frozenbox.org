@@ -143,8 +143,6 @@
     <section class="features-section content-section" id="android">
         <div class="container">
         <h2>FrozenChat for Android</h2>
-        <img width="200" height="340" src="screens/screen-conv.png" />
-			<img width="200" height="340" src="screens/screen-crypto.png" /><br>
 			<p>We provide our custom XMPP Android client that can be used for all our services.<br>
 			Feel free to download it from our mirrors, from github or from Google PlayStore<br>
 			<a href="https://play.google.com/store/apps/details?id=org.frozenbox.frozenchat" target="_blank" class="downloadbutton">PlayStore</a> <a href="http://archive.parrotsec.org/misc/frozenchat/" target="_blank" class="downloadbutton">Download the APK</a> - <a href="https://github.com/frozenbox/frozenchat" target="_blank" class="downloadbutton">GitHub page</a>
