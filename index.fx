@@ -59,12 +59,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading"><img width="100" height="100" src="css/images/logo.png" />Frozenbox Network</h1>
+                        <h1 class="brand-heading"><img width="100" height="100" src="css/images/logo.png" />Frozenbox</h1>
                         <p class="intro-text">Hacking Community</p>
                         <div class="page-scroll">
                             <a id="joinbutton" href="https://forum.frozenbox.org/ucp.php?mode=login" class="btn btn-default btn-lg" style="width:300px" onmouseover="document.getElementById('joinbutton').innerHTML='Join us'" onmouseout="document.getElementById('joinbutton').innerHTML='Follow the white rabbit'">Follow the white rabbit</a>
-			    <br><br><br>
-			    <a href="http://webchat.frozenbox.org" target="_blank" class="btn btn-default">IRC Webchat</a>
                         </div>
                     </div>
                 </div>
