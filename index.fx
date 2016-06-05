@@ -73,6 +73,7 @@
     <section id="portals" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
+            	<h1>Portals</h1>
                 <h2>Community</h2>
                 some text here<br><br><br><br>
                 <h2>Blog</h2>
@@ -84,39 +85,45 @@
     
     
     
-    <section id="services" class="container content-section text-center">
+    <section id="projects" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>Services</h2>
+                <h1>Projects</h1>
                 
-                <h4>XMPP</h4>
-                <ul>
-                	<li><b>Server:</b> <i>chat.frozenbox.org</i> (Port:5222)</li>
-                	
-                	<li><b>MUC:</b> <i>conference.chat.frozenbox.org</i></li>
-                	
-                </ul>
+                <h2>Parrot Security OS</h2>
+                some text here
                 <br><br><br><br>
-                <h4>IRC</h4>
-                <ul>
-                	<li><b>Server:</b> <i>irc.frozenbox.org</i></li>
-                	<li><b>Clear   Ports:</b> <i>5000 - 6665 - 6666 - 6667 - 6668 - 6669</i></li>
-			<li><b>SSL/TLS Ports:</b> <i>6697 - 7000</i></li>
-                </ul>
-                <br><br>
-		<a class="downloadbutton" href="http://webchat.frozenbox.org" target="_blank">Open the IRC Webchat</a>
+                <h2>AnonSurf</h2>
+				<p>some text here<br>
+				<br><br><br><br>
+                
 		<br><br>
             </div>
         </div>
     </section>
 
 
-    <section class="features-section content-section" id="android">
+    <section class="features-section content-section" id="services">
         <div class="container">
-        <h2>FrozenChat for Android</h2>
-			<p>We provide our custom XMPP Android client that can be used for all our services.<br>
-			Feel free to download it from our mirrors, from github or from Google PlayStore<br>
-			<a href="https://play.google.com/store/apps/details?id=org.frozenbox.frozenchat" target="_blank" class="downloadbutton">PlayStore</a> <a href="http://archive.parrotsec.org/misc/frozenchat/" target="_blank" class="downloadbutton">Download the APK</a> - <a href="https://github.com/frozenbox/frozenchat" target="_blank" class="downloadbutton">GitHub page</a>
+        	<h1>Services</h1>
+        	<h2>FrozenChat</h2>
+			<p>some text here<br>
+			<br><br><br><br>
+			<h2>FrozenSearch</h2>
+			<p>some text here<br>
+			<br><br><br><br>
+			<h2>PasteBox</h2>
+			<p>some text here<br>
+			<br><br><br><br>
+			<h2>FrozenCode</h2>
+			<p>some text here<br>
+			<br><br><br><br>
+			<h2>FrozenDNS</h2>
+			<p>some text here<br>
+			<br><br><br><br>
+			<h2>FrozenCA</h2>
+			<p>some text here<br>
+			<br><br><br><br>
 			<br><br> 
         </div>
     </section>
