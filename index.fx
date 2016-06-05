@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>FrozenChat</title>
+    <title>FrozenBox</title>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="FrozenChat: The ultimate secure communication gateway" />
+    <meta name="description" content="FrozenBox hacking community" />
     <meta name="author" content="Frozenbox Dev Team" />
-    <meta name="keywords" content="frozenchat,frozenbox,chat,xmpp,jabber,messaggi,messaggistica,crittografia,chat sicura,conversazioni" />
+    <meta name="keywords" content="frozenbox,parrot,hacking,hacker,hack,security,cyber,sicurezza,digitale,digital,forum,community,portal" />
     <link rel="shortcut icon" type="image/ico" href="css/images/favicon.ico"/>
     <link type="text/css" rel="stylesheet" media="screen" href="css/bootstrap.min.css" />
     <link type="text/css" rel="stylesheet" media="screen" href="css/theme.css" />
@@ -148,12 +148,7 @@
 			<p>We provide our custom XMPP Android client that can be used for all our services.<br>
 			Feel free to download it from our mirrors, from github or from Google PlayStore<br>
 			<a href="https://play.google.com/store/apps/details?id=org.frozenbox.frozenchat" target="_blank" class="downloadbutton">PlayStore</a> <a href="http://archive.parrotsec.org/misc/frozenchat/" target="_blank" class="downloadbutton">Download the APK</a> - <a href="https://github.com/frozenbox/frozenchat" target="_blank" class="downloadbutton">GitHub page</a>
-			<br><br>
-			Visit the GitHub page and take a look at the README for further informatio about FrozenChat for Android.<br><br><br><br>
-			<img width="200" height="340" src="screens/screen-register.png" />
-			<img width="200" height="340" src="screens/screen-profile.png" />
-			<img width="200" height="340" src="screens/screen-chats.png" />
-			<img width="200" height="340" width="170" height="300" src="screens/screen-contacts.png" /><br>    
+			<br><br> 
         </div>
     </section>
 
@@ -167,125 +162,9 @@
     </tbody>
 </table>
 </div>
-
-<div id="jive-content" align="center">
-
-
-
-<p>Use the form below to create a new user account</p>
-
-<form name="f" action="https://chat.frozenbox.org:9091/plugins/registration/sign-up.jsp" method="get">
-
-<div class="jive-contentBoxHeader">Create Account</div>
-<div class="jive-contentBox">
-    <div align="center">
-    <table cellpadding="3" cellspacing="0" border="0" width="40%">
-    <tbody>
-    <tr>
-        <td width="1%" nowrap><label for="usernametf">Username:</label> *</td>
-        <td width="99%">
-            <input type="text" name="username" size="20" maxlength="75" value=""
-             id="usernametf" autocomplete="off">
-        </td>
-    </tr>
-    <tr>
-        <td width="1%" nowrap>
-            <label for="nametf">Name:</label>
-        </td>
-        <td width="99%">
-            <input type="text" name="name" size="20" maxlength="75" value=""
-             id="nametf">
-        </td>
-    </tr>
-    <tr>
-        <td width="1%" nowrap>
-            <label for="emailtf">Email:</label></td>
-        <td width="99%">
-            <input type="text" name="email" size="20" maxlength="75" value=""
-             id="emailtf">
-        </td>
-    </tr>
-    <tr>
-        <td nowrap>
-            <label for="passtf">Password:</label> *
-        </td>
-        <td width="99%">
-            <input type="password" name="password" value="" size="20" maxlength="75"
-             id="passtf">
-        </td>
-    </tr>
-    <tr>
-        <td width="1%" nowrap>
-            <label for="confpasstf">Confirm Password:</label> *
-        </td>
-        <td width="99%">
-            <input type="password" name="passwordConfirm" value="" size="20" maxlength="75"
-             id="confpasstf">
-        </td>
-    </tr>
-    </tbody>
-    </table>
-    <br>
-    <span class="jive-description">
-    * Required Fields
-    </span>
-    </div>
-</div>
-
-
-<script type="text/javascript">
-var RecaptchaOptions = {tabindex:'0'};
-</script>
-<script type="text/javascript" src="https://www.google.com/recaptcha/api/challenge?k=6Ldff_0SAAAAAE83PMoZj5pYcwHTcS2xOdamBdQj "></script>
-<noscript>
-	<iframe src="https://www.google.com/recaptcha/api/noscript?k=6Ldff_0SAAAAAE83PMoZj5pYcwHTcS2xOdamBdQj " height="300" width="500" frameborder="0"></iframe><br/>
-	<textarea name="recaptcha_challenge_field" rows="3" cols="40"></textarea>
-	<input type="hidden" name="recaptcha_response_field" value="manual_challenge"/>
-</noscript>
-
-<input type="submit" name="create" value="Create Account">
-
-</form>
         </div>
     </section>
-    <b><i>Copyright 2013-2016 Frozenbox Network</i></b>
+    <b><i>Copyright 2011-2016 Frozenbox Network</i></b>
 </body>
-<script>
-    // Configuration loaded, so safe to make other require calls.
-    require(['converse'], function (converse) {
-        (function () {
-            /* XXX: This function initializes jquery.easing for the https://conversejs.org
-            * website. This code is only useful in the context of the converse.js
-            * website and converse.js itself is NOT dependent on it.
-            */
-            $(window).scroll(function() {
-                if ($(".navbar").offset().top > 50) {
-                    $(".navbar-fixed-top").addClass("top-nav-collapse");
-                } else {
-                    $(".navbar-fixed-top").removeClass("top-nav-collapse");
-                }
-            });
-            //jQuery for page scrolling feature - requires jQuery Easing plugin
-            $('.page-scroll a').bind('click', function(event) {
-                var $anchor = $(this);
-                $('html, body').stop().animate({
-                    scrollTop: $($anchor.attr('href')).offset().top
-                }, 700, 'easeInOutExpo');
-                event.preventDefault();
-            });
-        })();
-
-        converse.initialize({
-            bosh_service_url: 'https://chat.frozenbox.org',
-            i18n: locales.en,
-            keepalive: true,
-            play_sounds: true,
-            prebind: false,
-            show_controlbox_by_default: false,
-            debug: false,
-            roster_groups: true
-        });
-    });
-</script>
 </html>
 
