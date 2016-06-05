@@ -12,7 +12,7 @@
     <link type="text/css" rel="stylesheet" media="screen" href="css/bootstrap.min.css" />
     <link type="text/css" rel="stylesheet" media="screen" href="css/theme.css" />
     <link type="text/css" rel="stylesheet" href="css/button.css" />
-    <script src="js/frozenbox.js"></script>
+    <script src="js/jquery.min.js"></script>
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
