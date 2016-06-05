@@ -70,34 +70,14 @@
         </div>
     </section>
 
-    <section id="about" class="container content-section text-center">
+    <section id="portals" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>What it is</h2>
-                <strong>FrozenChat</strong> is a project created<br>
-                by <a href="http://frozenbox.org" target="_blank">Frozenbox network</a> that provides <i>Instant Messaging</i> services.<br>
-                It consists in a server that offers XMPP and IRC services to users.<br><br><br><br>
-                <h2>XMPP</h2>
-                Extensible Messaging and Presence Protocol (XMPP) is a communications protocol<br>
-                for near real-time instant messaging (IM), presence information,<br>
-                and contact list maintenance.<br>
-                XMPP, like email, is a federated protocol which means that there<br>
-                is not one company you can create an 'official XMPP account' with.<br>
-                Instead there are hundreds, or even thousands, of providers out there.<br>
-                And a user of a server is able to chat with any<br>
-                user on any XMPP compatible servers around the world.<br>
-                <b>And FrozenChat is one of them.</b>
-                <br><br><br><br>
-                <h2>IRC</h2>
-                Internet Relay Chat (IRC) is a protocol for text messaging.<br>
-                The chat process works on a client/server model of networking, and<br>
-                users are able to communicate with chat servers to transfer messages to other clients.<br>
-                It is mainly designed for group communication in discussion forums,<br>
-                called channels, but also allows one-to-one communication via<br>
-                private messages as well as chat and data transfer, including file sharing.<br>
-				We don't only provide our custom IRC server available at <b><i>irc.frozenbox.org</i></b><br>
-				But we also provide a birdge service that permits to talk<br>
-				on IRC channels through our XMPP server.<br><br>                
+                <h2>Community</h2>
+                some text here<br><br><br><br>
+                <h2>Blog</h2>
+                some text here
+                <br><br><br><br>              
             </div>
         </div>
     </section>
